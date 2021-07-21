@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/gunzenroses/hotelPage/static/css/main.d98f3637.chunk.css",
+    "main.js": "/gunzenroses/hotelPage/static/js/main.40492a4f.chunk.js",
+    "main.js.map": "/gunzenroses/hotelPage/static/js/main.40492a4f.chunk.js.map",
+    "runtime-main.js": "/gunzenroses/hotelPage/static/js/runtime-main.359bbf08.js",
+    "runtime-main.js.map": "/gunzenroses/hotelPage/static/js/runtime-main.359bbf08.js.map",
+    "static/js/2.67bab1b8.chunk.js": "/gunzenroses/hotelPage/static/js/2.67bab1b8.chunk.js",
+    "static/js/2.67bab1b8.chunk.js.map": "/gunzenroses/hotelPage/static/js/2.67bab1b8.chunk.js.map",
+    "index.html": "/gunzenroses/hotelPage/index.html",
+    "static/css/main.d98f3637.chunk.css.map": "/gunzenroses/hotelPage/static/css/main.d98f3637.chunk.css.map",
+    "static/js/2.67bab1b8.chunk.js.LICENSE.txt": "/gunzenroses/hotelPage/static/js/2.67bab1b8.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/gunzenroses/hotelPage/static/media/McLaren-Regular.f8c2c68a.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.359bbf08.js",
+    "static/js/2.67bab1b8.chunk.js",
+    "static/css/main.d98f3637.chunk.css",
+    "static/js/main.40492a4f.chunk.js"
+  ]
+}
