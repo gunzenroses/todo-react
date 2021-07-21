@@ -1,0 +1,8 @@
+@import "../../accests/mixins/mixins.scss";
+
+.list {
+    @include flexDisplay;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

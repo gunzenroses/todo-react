@@ -1,0 +1,24 @@
+@import "../../accests/styles/colors.scss";
+
+@mixin commonFont {
+    font-family: MCLaren;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+@mixin flexDisplay {
+    position: relative;
+    display: flex;
+}
+
+@mixin commonForm {
+    @include flexDisplay;
+    flex-direction: column;
+    width: 350px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    @media (max-width: 400px){
+        width: 90%;
+    }
+}
