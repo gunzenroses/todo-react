@@ -1,0 +1,35 @@
+@import-normalize;
+@import "../../accests/styles/fonts.scss";
+@import "../../accests/styles/colors.scss";
+
+.app {
+    width: 100vw;
+    min-height: 100vh;
+    max-height: fit-content;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    //justify-content: space-between;
+    font-size: 16px;
+    font-family: "McLaren";
+    background-image: url(../../accests/pics/bcg.jpg);
+}
+
+.btn_delete {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 30px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: transparent;
+    color: transparent;
+}
+
+.note:hover > .btn_delete {
+    color: red;
+}
+
+.btn_delete:active {
+    background-color: red;
+}

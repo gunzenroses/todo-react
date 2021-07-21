@@ -1,0 +1,26 @@
+@import "../../accests/styles/colors.scss";
+$msize: 20px;
+
+.main {
+    width: 90%;
+    max-width: 1650px;
+    height: fit-content;
+    min-height: calc((100vh - 8rem) - 2*#{$msize});
+    margin: $msize auto;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    font-size: 1rem;
+    background-color: $yellow;
+
+}
+
+.main > div {
+    margin-top: $msize;
+}
+
+@media (max-width: 400px){
+    .main {
+        width: 100%;
+    }
+}
