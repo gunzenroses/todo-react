@@ -8,7 +8,7 @@ $msize: 20px;
     min-height: calc((100vh - 8rem) - 2*#{$msize});
     margin: $msize auto;
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     flex-direction: column;
     font-size: 1rem;
     background-color: $yellow;
