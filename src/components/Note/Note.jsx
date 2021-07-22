@@ -9,8 +9,7 @@ function Note(props){
     }
 
     return(
-        <div className="not
-        e">
+        <div className="note">
             <h1 className="note__title">{props.title}</h1>
             <button className="btn_delete" onClick={ deleteNote }>X</button>
             <p className="note__text">{props.text}</p>
