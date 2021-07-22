@@ -1,6 +1,6 @@
 @import-normalize;
-@import "../../accests/styles/fonts.scss";
-@import "../../accests/styles/colors.scss";
+@import "../../assets/styles/fonts.scss";
+@import "../../assets/styles/colors.scss";
 
 .app {
     width: 100vw;
@@ -12,7 +12,7 @@
     //justify-content: space-between;
     font-size: 16px;
     font-family: "McLaren";
-    background-image: url(../../accests/pics/bcg.jpg);
+    background-image: url(../../assets/pics/bcg.jpg);
 }
 
 .btn_delete {

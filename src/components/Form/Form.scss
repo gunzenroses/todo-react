@@ -1,10 +1,10 @@
-@import "../../accests/mixins/mixins.scss";
+@import "../../assets/mixins/mixins.scss";
 
 .form {
     @include commonForm;
     margin: 0 auto;
     justify-content: space-between;
-    background-image: url(../../accests/pics/bcg.jpg);
+    background-image: url(../../assets/pics/bcg.jpg);
 
     &__title {
         @include commonFont;
