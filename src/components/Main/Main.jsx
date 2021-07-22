@@ -12,10 +12,18 @@ function Main(){
         })
     }
 
+    function deleteItem(id){
+        setItems((prevItems) =>{
+                return prevItems.filter((item, index) => {
+                    return index !== id;
+            })
+        })
+    }
+
     return (
         <main className="main">
             <Form onAddition={ addItem }/>
-            <List arr = {items} />
+            <List arr = {items} onDeletion={ deleteItem } />
         </main>
     )
 }
