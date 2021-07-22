@@ -7,7 +7,7 @@ function List(props){
         <div className="list">
             {
             props.arr.map((item, index) => {
-                    return <Note key={ index } title={ item.title } text={ item.text } />
+                    return <Note key={ index } id={ index } title={ item.title } text={ item.text } onDelete={ props.onDeletion }/>
                 })
             }
         </div>
